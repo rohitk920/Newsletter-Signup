@@ -1,3 +1,5 @@
+// Newsletter App.js
+
 const express = require('express')
 const bodyParser = require('body-parser')
 const request = require('request')
@@ -81,5 +83,5 @@ app.post('/failure',(req,res)=>{
 
 
 app.listen(process.env.PORT, () => {
-  console.log(`App.js listening on port port`)
+  console.log(`NewsLetter App.js listening on port port`)
 })
